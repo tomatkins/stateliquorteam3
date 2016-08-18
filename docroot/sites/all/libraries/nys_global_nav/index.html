@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<title>NYS Global Navigation Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="stylesheet" href="demos/demo.css">
+  <link rel="stylesheet" href="source/css/nys-global-nav-fonts.css">
+  <link rel="stylesheet" href="source/css/nys-global-nav.css">
+  <!-- Uncomment your Grouping CSS file here: -->
+  <!-- <link rel="stylesheet" href="source/css/nys-brand/administration.css"> -->
+  <!-- <link rel="stylesheet" href="source/css/nys-brand/business.css"> -->
+  <!-- <link rel="stylesheet" href="source/css/nys-brand/education.css"> -->
+  <!-- <link rel="stylesheet" href="source/css/nys-brand/health-and-human-services.css"> -->
+  <!-- <link rel="stylesheet" href="source/css/nys-brand/local-and-regional-authorities.css"> -->
+  <!-- <link rel="stylesheet" href="source/css/nys-brand/public-safety.css"> -->
+  <!-- <link rel="stylesheet" href="source/css/nys-brand/recreation-and-environment.css"> -->
+  <link rel="stylesheet" href="source/css/nys-brand/statewide-elected-officials.css">
+  <!-- <link rel="stylesheet" href="source/css/nys-brand/transportation-and-utilities.css"> -->
+</head>
+<body>
+  <div id="nygov-universal-navigation" class="nygov-universal-container" data-iframe="true" data-updated="2014-11-07 08:30">
+    <noscript>
+        <iframe width="100%" height="86px" src="//static-assets.ny.gov/load_global_menu/ajax?iframe=true" frameborder="0" style="border:none; overflow:hidden; width:100%; height:86px;" scrolling="no">
+            Your browser does not support iFrames
+        </iframe>
+    </noscript>
+    <script type="text/javascript">
+        var _NY = {
+            HOST: "static-assets.ny.gov",
+            BASE_HOST: "www.ny.gov",
+            hideSettings: false,
+            hideSearch: false
+        };
+        (function (document, bundle, head) {
+            head = document.getElementsByTagName('head')[0];
+            bundle = document.createElement('script');
+            bundle.type = 'text/javascript';
+            bundle.async = true;
+            bundle.src = "//static-assets.ny.gov/sites/all/widgets/universal-navigation/js/dist/global-nav-bundle.js";
+            head.appendChild(bundle);
+        }(document));
+    </script>
+  </div>
+  <div class="nys-global-header horizontal unstacked">
+    <div class="nav-toggle">
+      <a href="#" role="button" id="nys-menu-control">Navigation menu</a>
+    </div>
+    <h1><a href="#"><span>New York State </span> <span> Global Navigation Demo</span></a></h1>
+    <ul id="nys-global-nav">
+  		<li><a href="#">Unstacked</a>
+  			<ul>
+  				<li><a href="demos/unstacked-5.html">Horizontal Unstacked 5</a></li>
+  				<li><a href="demos/unstacked-7.html">Horizontal Unstacked 7</a></li>
+  			</ul>
+  		</li>
+  		<li><a href="#">Stacked</a>
+  			<ul>
+  				<li><a href="demos/stacked-5.html">Horizontal Stacked 5</a></li>
+  				<li><a href="demos/stacked-7.html">Horizontal Stacked 7</a></li>
+  			</ul>
+  		</li>
+  		<li><a href="demos/vertical-7.html">Vertical 7+</a></li>
+    </ul>
+  </div>
+  <div class="info">
+  	<h2>Global Navigation</h2>
+  	<p>The agency global navigation appears on every page of a website, and serves 2 functions:
+  	<ul>
+  		<li>Allows users to switch to other important areas easily, no matter their current location</li>
+  		<li>Ensures that even users who don't enter through the homepage can quickly get a sense of what your agency does</li>
+  	</ul>
+  	<p><B><a href="resources/2015-11-Agency-Global-Navigation.pdf">Download the Global Navigation Guidelines</a> for technical specifications and content requirements</B></p>
+  </div>
+  <div class="info">
+    <h2>Streamlining your global navigation</h2>
+    <p>Three global navigation variations were provides as part of the web guidelines.</p>
+    <ul>
+    	<li><a href="demos/unstacked-5.html"><b>Horizontal Unstacked 5</b></a></li>
+    	<li><a href="demos/stacked-7.html">Horizontal Stacked 7</a></li>
+    	<li><a href="demos/vertical-7.html">Vertical 7+</a></li>
+    </ul>
+    <p>Agencies should aim to use the <a href="demos/unstacked-5.html"><b>Horizontal Unstacked 5</b></a> variation for their global navigation.</p>
+  </div>
+  <div class="info">
+    <h2>Balancing storytelling and user goals</h2>
+    <p>In your global navigation you can showcase your agencies goals and services.</p>
+    <ul>
+    	<li>Is an opportunity to feature the breadth and depth of your content offerings.</li>
+    	<li>Think of your organization goals.</li>
+    	<li>Each word gives context to the destination. The collections of words tell a story about your agency.</li>
+    	<li>A good global navigation gives a snapshot of the agency and how it helps constituents.</li>
+    </ul>
+  </div>
+  <div class="nys-global-footer">
+    <div class="footer-container nys-global-footer-cols-2">
+      <h3>New York State Global Navigation Demo</h3>
+      <div class="footer-col">
+        <h4>Implementation</h4>
+        <ul>
+          <li><a href="https://github.com/ny/global-navigation/blob/master/IMPLEMENTATION.md">How to Implement</a></li>
+          <li><a href="https://github.com/ny/global-navigation#considerations-when-implementing-this-code-on-your-website">Considerations</a></li>
+          <li><a href="https://github.com/ny/global-navigation#constraints-of-the-global-navigation">Constraints</a></li>
+          <li><a href="https://www.drupal.org/project/nys_global_nav">Install on a Drupal site</a></li>
+        </ul>
+      </div>
+			<div class="footer-col">
+				<h4>Documentation</h4>
+				<ul>
+          <li><a href="https://github.com/ny/global-navigation/blob/master/OPTIONS.md">Configuration Options</a></li>
+					<li><a href="https://github.com/ny/global-navigation#browser-support-standards-of-this-code">Browser Support</a></li>
+					<li><a href="https://github.com/ny/global-navigation#architectural-decisions">Architecture</a></li>
+          <li><a href="https://github.com/ny/global-navigation#contributing-to-the-global-navigation">Contributing Back</a></li>
+          <li><a href="https://github.com/ny/global-navigation/issues?&q=is%3Aissue+label%3AFAQ">View List of FAQs</a></li>
+				</ul>
+			</div>
+			<div class="social-media">
+        <div class="social-media-title">
+          <h4>CONNECT WITH US</h4>
+        </div>
+        <div class="social-media-links">
+          <ul>
+            <li>
+              <a href="https://github.com/ny">
+                <span class="icon-social-github"></span>
+                <span>NYS GITHUB</span>
+              </a>
+            </li>
+						<li>
+              <a href="https://github.com/ny/global-navigation">
+                <span class="icon-social-github"></span>
+                <span>GLOBAL NAV</span>
+              </a>
+            </li>
+						<li>
+							<a href="https://github.com/ny/universal-navigation">
+								<span class="icon-social-github"></span>
+								<span>UNIVERSAL NAV</span>
+							</a>
+						</li>
+						<li>
+              <a href="https://www.facebook.com/GovernorAndrewCuomo">
+                <span class="icon-social-facebook"></span>
+                <span>NY.GOV FACEBOOK</span>
+              </a>
+            </li>
+						<li>
+							<a href="https://twitter.com/NYGov">
+								<span class="icon-social-twitter"></span>
+								<span>NY.GOV TWITTER</span>
+							</a>
+						</li>
+          </ul>
+        </div>
+      </div>
+    <!-- FOOTER CONTENT ENDS HERE -->
+    </div>
+  </div>
+  <div id="nygov-universal-footer" class="nygov-universal-container">
+    <noscript>
+        <iframe id="nygov-universal-footer-frame" class="nygov-universal-container" width="100%" height="200px" src="//static-assets.ny.gov/load_global_footer/ajax?iframe=true" data-updated="2014-11-07 08:30" frameborder="0" style="border:none; overflow:hidden; width:100%; height:200px;" scrolling="no">
+            Your browser does not support iFrames
+        </iframe>
+    </noscript>
+  </div>
+  <script src="source/js/nys-global-nav-header.js"></script>
+  <!--[if lte IE 8]><script src="source/js/respond.min.js"></script><![endif]-->
+</body>
+</html>

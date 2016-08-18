@@ -1,0 +1,15 @@
+// Load NYS Navigation normalization
+@import '_incl/nys-global-nav-normalize';
+
+// Load NYS Navigation Global variables and utility functions
+@import '_incl/globals';
+
+// Load Agency Grouping/Core NYS variables
+@import '_incl/variables/colors';
+
+// End load variables
+@import '_incl/utilities/mixins';
+
+// Load layouts
+@import '_incl/layout/header';
+@import '_incl/layout/footer';

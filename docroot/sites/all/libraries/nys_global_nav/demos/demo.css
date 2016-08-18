@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+p {
+  margin: 30px 45px ;
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  max-width: 625px;
+
+}
+
+div.info {
+  margin: 30px 45px 45px;
+  font-family: "Proxima Nova", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  max-width: 625px;
+}
+
+div.info h2 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 800;
+  padding-top: 18px;
+  text-transform:capitalize;
+}
+
+div.info p, div.info ul {
+  line-height:18px;
+  margin: 18px 0;
+
+}
+div.info ul li {
+  margin-bottom: 5px;
+}
+
+div.info ul {
+  padding-left: 20px;
+}
+
+div.info b {
+  font-weight: 800;
+}
+
+div.vertical7 {
+  padding: 15px;
+}
+div.vertical7 p {
+    margin: 15px 0;
+}
