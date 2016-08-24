@@ -4,11 +4,4 @@
 sites/*/files
 sites/*/private
 
-../private/*
-tmp/
-../.idea/copyright/
-../.idea/modules.xml
-../.idea/stateliquorteam3-dev.iml
-../.idea/workspace.xml
-../private/
 

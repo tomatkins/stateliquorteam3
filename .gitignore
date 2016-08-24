@@ -3,3 +3,8 @@ docroot/files
 docroot/sites/*/files
 docroot/sites/*/private
 
+# Backup and Migrate folder
+private
+
+#PHPStorm project file
+.idea
