@@ -8,3 +8,6 @@ private
 
 #PHPStorm project file
 .idea
+
+#local Settings file
+docroot/sites/default/settings.php
