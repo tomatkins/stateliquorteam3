@@ -3,3 +3,7 @@
 # Ignore paths that contain user-generated content.
 sites/*/files
 sites/*/private
+../.idea/*
+../private/
+../private/*
+tmp/
