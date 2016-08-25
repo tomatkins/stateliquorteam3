@@ -1,2 +1,253 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+#block-block-6
+{
+	background-color: #FFFFFF;
+	text-decoration: none;	
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #09464c;
+	padding-top:10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 95%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#block-block-6 a {
+	text-decoration: none;
+	color: #000000;
+
+}
+#block-block-6 a:hover {
+	text-decoration: none;
+	color: #09464c;
+}
+
+#block-block-11
+{
+	background-color: #FFFFFF;
+	text-decoration: none;	
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #09464c;
+	padding-top:10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 95%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+#block-block-11 a {
+	text-decoration: none;
+	color: black;
+}
+
+#block-block-11 a:hover {
+	color:#09464c;
+}
+
+#block-block-16
+{
+	background-color: #FFFFFF;
+	text-decoration: none;	
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #09464c;
+	padding-top:10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 95%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+#block-block-16 a {
+	text-decoration: none;
+	color:black;
+}
+
+#block-block-16 a:hover {
+	color:#09464c;
+}
+
+#block-block-21
+{
+	background-color: #FFFFFF;
+	text-decoration: none;	
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #09464c;
+	padding-top:10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 95%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#block-block-21 a {
+	text-decoration: none;
+	color: black;
+
+}
+
+#block-block-21 a:hover {
+	color:#09464c;
+}
+
+#block-block-26
+{
+	background-color: #FFFFFF;
+	text-decoration: none;	
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #09464c;
+	padding-top:10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 95%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#block-block-26 a {
+	text-decoration: none;
+	color: black;
+}
+#block-block-26 a:hover {
+	color:#09464c;
+}
+
+#block-block-31
+{
+	background-color: #FFFFFF;
+	text-decoration: none;	
+	margin-top: 20px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #09464c;
+	padding-top:10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 95%;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#block-block-31 a {
+	text-decoration: none;
+	color: black;
+	vertical-align: middle;
+}
+#block-block-31 a:hover {
+	color:#09464c;
+}
+@media screen and (min-width: 360px) and (max-width: 460px) {
+    /**#block-block-6 {
+        background-color: lightgreen;
+    }*/
+}
+@media screen and (min-width: 461px) and (max-width: 768px) {
+   /** #block-block-6 {
+        background-color: lightblue;
+
+    }*/
+	  #block-block-6 h3{
+    
+		font-size: 16px;
+    }
+	
+		  #block-block-11 h3{
+    
+		font-size: 16px;
+    }
+	
+		  #block-block-16 h3{
+    
+		font-size: 16px;
+    }
+	
+		  #block-block-21 h3{
+    
+		font-size: 16px;
+		
+    }
+
+		  #block-block-26 h3{
+    
+		font-size: 16px;
+    }
+	
+		  #block-block-31 h3{
+    
+		font-size: 16px;
+    }
+	
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+   /** #block-block-6 {
+        background-color: lightblue;
+
+    }*/
+	#block-block-6 h3{
+    
+		font-size: 16px;
+    }
+	
+	#block-block-11 h3{
+    
+		font-size: 16px;
+    }
+	
+	#block-block-16 h3{
+    
+		font-size: 16px;
+    }
+	
+	#block-block-21 h3{
+    
+		font-size: 16px;
+
+    }
+  
+
+	
+	
+	 #block-block-26 h3{
+    
+		font-size: 16px;
+    }
+	
+	#block-block-31 h3{
+    
+		font-size: 16px;
+    }
+	
+}
+
+
+
